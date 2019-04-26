@@ -6,19 +6,19 @@
  * sources & updates: https://github.com/joostvanstuijvenberg/OpenCV
  *
  * You are free to:
- *    Share — copy and redistribute the material in any medium or format
- *    Adapt — remix, transform, and build upon the material for any purpose, even commercially.
+ *    Share ï¿½ copy and redistribute the material in any medium or format
+ *    Adapt ï¿½ remix, transform, and build upon the material for any purpose, even commercially.
  *
  * The licensor cannot revoke these freedoms as long as you follow the license terms.
  *
  * Under the following terms:
- *    Attribution — You must give appropriate credit, provide a link to the license, and indicate
+ *    Attribution ï¿½ You must give appropriate credit, provide a link to the license, and indicate
  *                  if changes were made. You may do so in any reasonable manner, but not in any
  * 	                way that suggests the licensor endorses you or your use.
- *    ShareAlike  — If you remix, transform, or build upon the material, you must distribute your
+ *    ShareAlike  ï¿½ If you remix, transform, or build upon the material, you must distribute your
  *                  contributions under the same license as the original.
  *
- * No additional restrictions — You may not apply legal terms or technological measures that
+ * No additional restrictions ï¿½ You may not apply legal terms or technological measures that
  * legally restrict others from doing anything the license permits.
  *
  * Notices:
@@ -47,7 +47,7 @@
 #include <opencv2/imgproc/imgproc.hpp>
 
 #define GRAB_VERSION			"1.1.0"
-#define DEFAULT_CAMERA			"-1"
+#define DEFAULT_CAMERA			"0"
 
 std::string dateTimeFileName(std::string extension);
 void onMouseClick(int event, int x, int y, int flags, void* userdata);
